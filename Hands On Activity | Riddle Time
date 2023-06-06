@@ -1,0 +1,19 @@
+print("Riddle Time!")
+print("I am a Computer Application that you usually see peeking out; when you accessed me for a certain purpose like checking Internet connection, ipconfig, ping.")
+print("When I'm used as Administrator, I can perform well.")
+print("Who am I?")
+
+print("Key Question:")
+print("1. What do you think is the answer?")
+print("A. CMD")
+print("B. Terminal")
+print("C. PowerShell")
+
+answer = input("Enter your answer (A, B, or C): ")
+
+if answer.upper() == "A":
+    print("Correct! The answer is CMD.")
+elif answer.upper() == "B" or answer.upper() == "C":
+    print("Incorrect answer. Please try again.")
+else:
+    print("Invalid input. Please select a valid answer (A, B, or C).")
